@@ -30,7 +30,7 @@ services:
     container_name: influxdb
     #Le decimos que siempre se inicialice
     restart: always
-     #Seleccionamos el puerto
+     #Seleccionamos el puerto que tendra
     ports:
       - 8086:8086
       #Seleccionamos el nombre del networks
